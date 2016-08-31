@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:background="@drawable/ress5">
+
+
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Terimler Sözlüğü"
+                android:id="@+id/button5" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Uzay Terimleri Sözlügü"
+                android:id="@+id/button6" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Cerrahi Tıp Terimler Sözlüğü"
+                android:id="@+id/button7" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Bilim  Sanat Terimler Sözlüğü"
+                android:id="@+id/button8"
+                />
+
+</LinearLayout>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ress5"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/textView200"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:text="Uygulamamızı daha iyi bir hale getirmek için hertürlü düşünce ve görüşlerinizi bizimle paylaşın."
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:padding="10dp"
+
+                android:id="@+id/textView256"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="Konu Başlığı : "
+                android:textSize="20dp"/>
+
+            <EditText
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:id="@+id/basAl"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"/>
+
+
+            <TextView
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:id="@+id/textView345"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="Mesajınız : "
+                android:textSize="20dp"/>
+
+            <EditText
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:id="@+id/mesajAl"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                 />
+
+            <Button
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape"
+                android:id="@+id/mailGonder"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="Gönder" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

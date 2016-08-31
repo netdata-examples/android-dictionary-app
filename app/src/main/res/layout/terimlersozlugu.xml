@@ -1,0 +1,656 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ress5"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical">
+
+
+            <Button
+
+                android:id="@+id/agac"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Ağaç İşleri Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/asalak"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Asalakbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/atlet"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Atletizm Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ayak"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Futbol Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bilisimter"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Bilişim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/biyo"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Biyoloji Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/boks"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Boks Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bud"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Budun Bilim Terimler Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ceza"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Ceza Yargılama Yöntemi Yasası Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/cografya"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Coğrafya Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cift"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Çiftteker Terimleri Sözüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/dilbil"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Dilbilgisi Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/dilbilim"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Dilbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/dose"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Döşem Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/edep"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Edebiyat ve Söz Sanatı Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/egiti"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Eğitim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/felsefe"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Felsefe Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/fiz"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Fizik Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/fiziksel"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Fiziksel Kimya Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/gok"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Gökbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/goster"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Gösterim Sanatları Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/gramer"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Gramer Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/gumruk"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Gümrük Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/gures"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Güreş Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/guzel"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Güzel Sanatlar Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/halk"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Halkbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/iktisat"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="İktisat Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/istatistik"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="İstatistik Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/kent"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Kentbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/kilic"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Kılıçoyunu Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/kimya"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Kimya Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/kitaplik"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Kitaplıkbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/mantik"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Mantık Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/medeni"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Medeni Hukuk Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/metal"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Metalbilim İşlem Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/mat"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Matematik Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/nuk"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Nükleer Enerji Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/oto"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Otomobilcilik ve Motor Bilgisi Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/ruh"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Ruhbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/basket"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Basketbol Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/sinema"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Sinema ve Televizyon Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/tari"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Tarih Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/tecim"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Tecim, Maliye, Sayışmanlık ve Güvence Terimleri"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/tip"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Tıp Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/tiyatro"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Tiyatro Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/toplum"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Toplumbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/turk"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Türk Dünyası Gramer Terimleri Kılavuzu"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/uygula"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Uygulayım Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/yap"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Yapım İyeliği Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/yapit"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Yapıt Hakları Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/yazin"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Yazın Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/yerbilim"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Yerbilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/yontembilim"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Yöntembilim Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/vet"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Veteriner Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/vole"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Voleybol Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/zaanat"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Zanaat Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/zoolo"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:background="@drawable/buttonshape"
+                android:text="Zooloji Terimleri Sözlüğü"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

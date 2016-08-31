@@ -1,0 +1,747 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ress5"
+    android:gravity="center_horizontal|center_vertical">
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <Button
+
+                android:id="@+id/agacIsleri"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:text="Ağaç İşleri"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/Araba"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Araba"
+               />
+
+            <Button
+                android:id="@+id/Asalak"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Asalak"
+                />
+
+            <Button
+                android:id="@+id/Atletizm"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Atletizm"
+               />
+
+            <Button
+                android:id="@+id/Ayaktopu"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Ayaktopu"
+               />
+
+            <Button
+                android:id="@+id/Aydınlatma"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Aydınlatma"
+                />
+            <Button
+                android:id="@+id/Basketbol"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Basketbol"
+                />
+
+            <Button
+                android:id="@+id/Bilisimm"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Bilişim"
+              />
+
+            <Button
+                android:id="@+id/Biyoloji"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Biyoloji"
+                />
+            <Button
+                android:id="@+id/Boks"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Boks"
+               />
+            <Button
+                android:id="@+id/Budun"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Budun Bilim"
+                />
+
+            <Button
+                android:id="@+id/Cografyaa"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Coğrafya"
+                />
+
+            <Button
+                android:id="@+id/DilBilgisi"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Dil Bilgisi"
+                    />
+
+            <Button
+                android:id="@+id/Dilbilim"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Dilbilim"
+         />
+
+            <Button
+                android:id="@+id/Döseme"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Döşem"
+
+
+                />
+
+            <Button
+                android:id="@+id/Edebiyat"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Edebiyat"
+               />
+
+            <Button
+                android:id="@+id/Eggitim"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Eğitim"
+               />
+
+            <Button
+                android:id="@+id/Felsefe"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Felsefe"
+             />
+
+            <Button
+                android:id="@+id/Fizik"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Fizik"
+             />
+
+
+            <Button
+                android:id="@+id/Fiziksell"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Fiziksel"
+               />
+
+            <Button
+                android:id="@+id/Gokk"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Gökbilim"
+               />
+
+            <Button
+                android:id="@+id/Gosster"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Gösterim"
+               />
+
+            <Button
+                android:id="@+id/Graamer"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Gramer"
+               />
+
+            <Button
+                android:id="@+id/Gumrukk"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Gümrük"
+               />
+
+            <Button
+                android:id="@+id/Guress"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Güreş"
+              />
+
+            <Button
+                android:id="@+id/GuzelSanat"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Güzel Sanatlar"
+              />
+
+            <Button
+                android:id="@+id/HalkBil"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Halk Bilim"
+                />
+
+            <Button
+                android:id="@+id/IktiEco"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="İktisat - Ekonomi"
+              />
+
+            <Button
+                android:id="@+id/istatistikk"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="İstatistik"
+               />
+
+            <Button
+                android:id="@+id/Jimnastik"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Jimnastik"
+               />
+
+            <Button
+                android:id="@+id/kentBi"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Kent Bilim"
+               />
+
+            <Button
+                android:id="@+id/killic"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Kılıç Oyunu"
+                 />
+            <Button
+                android:id="@+id/kimmya"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Kimya"
+               />
+
+            <Button
+                android:id="@+id/kitaplikk"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Kitaplık Bilimi"
+             />
+
+            <Button
+                android:id="@+id/Kriminal"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Kriminal"
+              />
+            <Button
+                android:id="@+id/mant"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Mantık"
+             />
+
+            <Button
+                android:id="@+id/matt"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Matematik"
+                 />
+            <Button
+
+                android:id="@+id/medenihu"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Medeni Hukuk"
+                />
+
+            <Button
+                android:id="@+id/metall"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Metal Bilimi"
+                />
+
+
+            <Button
+                android:id="@+id/nukk"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Nükleer Enerji"
+                />
+            <Button
+                android:id="@+id/otom"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Otomobil"
+                />
+
+            <Button
+                android:id="@+id/ruhh"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Ruh Bilimi"
+                />
+
+            <Button
+                android:id="@+id/sinemaa"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Sinema TV"
+                />
+
+
+            <Button
+                android:id="@+id/su"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Su Ürünleri"
+                />
+
+            <Button
+                android:id="@+id/Tarih"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Tarih"
+                />
+
+            <Button
+                android:id="@+id/Tecim"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Tecim"
+                 />
+
+            <Button
+                android:id="@+id/Tıp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Tıp"
+                />
+            <Button
+                android:id="@+id/Tiyatro"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Tiyatro"
+               />
+            <Button
+                android:id="@+id/toplumm"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Toplum Bilim"
+                />
+            <Button
+                android:id="@+id/turkk"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Türk Dünyası"
+                 />
+            <Button
+                android:id="@+id/Uygulayım"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Uygulayım"
+                />
+            <Button
+                android:id="@+id/Veteriner"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Veteriner"
+                />
+
+            <Button
+                android:id="@+id/Voleybol"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Voleybol"
+                />
+            <Button
+                android:id="@+id/yapimm"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Yapım İyeliği"
+              />
+            <Button
+                android:id="@+id/yapitHa"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Yapıt Hakları"
+               />
+
+            <Button
+                android:id="@+id/Yargılama"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Yargılama"
+                />
+            <Button
+                android:id="@+id/yazinn"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Yazın"
+             />
+            <Button
+                android:id="@+id/Yerbilim"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Yerbilim"
+              />
+            <Button
+                android:id="@+id/Yöntembilim"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Yöntembilim"
+               />
+
+
+            <Button
+                android:id="@+id/Zanaat"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Zanaat"
+              />
+            <Button
+                android:id="@+id/Zooloji"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Zooloji"
+                 />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

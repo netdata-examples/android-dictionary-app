@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ertugrul.netdatasozluk">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ilkSayfa"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:icon="@drawable/icon"
+            android:name=".ikinciSayfa"
+            android:label="@string/app_name"
+           />
+        <activity android:name=".ucuncuSayfa" />
+        <activity android:name=".besinciSayfa" />
+        <activity android:name=".altinciSayfa" />
+        <activity android:name=".geriBildirim"/>
+        <activity android:name=".hakkinda"/>
+        <activity android:name=".menuBaglanti" />
+        <activity android:name=".terimler" />
+        <activity android:name=".digerleri" />
+        <activity android:name=".cerrahSozlugu" />
+        <activity android:name=".terimlerSozlugu" />
+        <activity android:name=".uzaySozlugu" />
+        <activity android:name=".bilimSozlugu" />
+        <activity android:name=".deyimler" />
+        <activity android:name=".kisa" />
+        <activity android:name=".plaka" />
+        <activity android:name=".kisiAdlari" />
+        <activity android:name=".deyim" />
+        <activity android:name=".terimlerortak" />
+        <activity android:name=".bilisimOrtak" />
+        <activity android:name=".bc" />
+        <activity android:name=".bd" />
+        <activity android:name=".be" />
+        <activity android:name=".bf" />
+        <activity android:name=".bg" />
+        <activity android:name=".bk" />
+        <activity android:name=".bl" />
+        <activity android:name=".bm" />
+        <activity android:name=".bn" />
+        <activity android:name=".bp" />
+        <activity android:name=".br" />
+        <activity android:name=".bq" />
+        <activity android:name=".bb" />
+        <activity android:name=".atasoz" />
+        <activity android:name=".vocabulary" />
+        <activity android:name=".ba" />
+        <activity android:name=".dorduncuSayfa">
+
+        </activity>
+    </application>
+
+</manifest>
